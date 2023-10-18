@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		423F203A2ADFA4B100AA6940 /* Swiggy_Sticky_Header_demoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F20392ADFA4B100AA6940 /* Swiggy_Sticky_Header_demoApp.swift */; };
+		423F203C2ADFA4B100AA6940 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F203B2ADFA4B100AA6940 /* ContentView.swift */; };
+		423F203E2ADFA4B300AA6940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423F203D2ADFA4B300AA6940 /* Assets.xcassets */; };
+		423F20412ADFA4B300AA6940 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 423F20402ADFA4B300AA6940 /* Preview Assets.xcassets */; };
+		423F20482ADFA51E00AA6940 /* VerticalDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F20472ADFA51E00AA6940 /* VerticalDivider.swift */; };
+		423F204A2ADFA54B00AA6940 /* Extesnion+AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F20492ADFA54B00AA6940 /* Extesnion+AppColor.swift */; };
+		423F204C2ADFA5C300AA6940 /* Extension+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F204B2ADFA5C300AA6940 /* Extension+UIView.swift */; };
+		423F204E2ADFAF0900AA6940 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F204D2ADFAF0900AA6940 /* HeaderView.swift */; };
+		423F20512ADFDBE400AA6940 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F20502ADFDBE400AA6940 /* Food.swift */; };
+		423F20532ADFE21400AA6940 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F20522ADFE21400AA6940 /* CardView.swift */; };
+		423F20552ADFE3D700AA6940 /* HearderTilteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F20542ADFE3D700AA6940 /* HearderTilteView.swift */; };
+		423F20572ADFE75E00AA6940 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F20562ADFE75E00AA6940 /* Tab.swift */; };
+		423F205A2ADFF13B00AA6940 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423F20592ADFF13B00AA6940 /* HomeViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		423F20362ADFA4B100AA6940 /* Swiggy_Sticky_Header_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swiggy_Sticky_Header_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		423F20392ADFA4B100AA6940 /* Swiggy_Sticky_Header_demoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swiggy_Sticky_Header_demoApp.swift; sourceTree = "<group>"; };
+		423F203B2ADFA4B100AA6940 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		423F203D2ADFA4B300AA6940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		423F20402ADFA4B300AA6940 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		423F20472ADFA51E00AA6940 /* VerticalDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalDivider.swift; sourceTree = "<group>"; };
+		423F20492ADFA54B00AA6940 /* Extesnion+AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extesnion+AppColor.swift"; sourceTree = "<group>"; };
+		423F204B2ADFA5C300AA6940 /* Extension+UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIView.swift"; sourceTree = "<group>"; };
+		423F204D2ADFAF0900AA6940 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		423F20502ADFDBE400AA6940 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		423F20522ADFE21400AA6940 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		423F20542ADFE3D700AA6940 /* HearderTilteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HearderTilteView.swift; sourceTree = "<group>"; };
+		423F20562ADFE75E00AA6940 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		423F20592ADFF13B00AA6940 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		423F20332ADFA4B100AA6940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		423F202D2ADFA4B100AA6940 = {
+			isa = PBXGroup;
+			children = (
+				423F20382ADFA4B100AA6940 /* Swiggy_Sticky_Header_demo */,
+				423F20372ADFA4B100AA6940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		423F20372ADFA4B100AA6940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				423F20362ADFA4B100AA6940 /* Swiggy_Sticky_Header_demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		423F20382ADFA4B100AA6940 /* Swiggy_Sticky_Header_demo */ = {
+			isa = PBXGroup;
+			children = (
+				423F20582ADFF12B00AA6940 /* ViewModel */,
+				423F204F2ADFDBD600AA6940 /* Model */,
+				423F20392ADFA4B100AA6940 /* Swiggy_Sticky_Header_demoApp.swift */,
+				423F203B2ADFA4B100AA6940 /* ContentView.swift */,
+				423F203D2ADFA4B300AA6940 /* Assets.xcassets */,
+				423F203F2ADFA4B300AA6940 /* Preview Content */,
+				423F20472ADFA51E00AA6940 /* VerticalDivider.swift */,
+				423F20492ADFA54B00AA6940 /* Extesnion+AppColor.swift */,
+				423F204B2ADFA5C300AA6940 /* Extension+UIView.swift */,
+				423F204D2ADFAF0900AA6940 /* HeaderView.swift */,
+				423F20522ADFE21400AA6940 /* CardView.swift */,
+				423F20542ADFE3D700AA6940 /* HearderTilteView.swift */,
+			);
+			path = Swiggy_Sticky_Header_demo;
+			sourceTree = "<group>";
+		};
+		423F203F2ADFA4B300AA6940 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				423F20402ADFA4B300AA6940 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		423F204F2ADFDBD600AA6940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				423F20502ADFDBE400AA6940 /* Food.swift */,
+				423F20562ADFE75E00AA6940 /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		423F20582ADFF12B00AA6940 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				423F20592ADFF13B00AA6940 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		423F20352ADFA4B100AA6940 /* Swiggy_Sticky_Header_demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 423F20442ADFA4B300AA6940 /* Build configuration list for PBXNativeTarget "Swiggy_Sticky_Header_demo" */;
+			buildPhases = (
+				423F20322ADFA4B100AA6940 /* Sources */,
+				423F20332ADFA4B100AA6940 /* Frameworks */,
+				423F20342ADFA4B100AA6940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swiggy_Sticky_Header_demo;
+			productName = Swiggy_Sticky_Header_demo;
+			productReference = 423F20362ADFA4B100AA6940 /* Swiggy_Sticky_Header_demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		423F202E2ADFA4B100AA6940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					423F20352ADFA4B100AA6940 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 423F20312ADFA4B100AA6940 /* Build configuration list for PBXProject "Swiggy_Sticky_Header_demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 423F202D2ADFA4B100AA6940;
+			productRefGroup = 423F20372ADFA4B100AA6940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				423F20352ADFA4B100AA6940 /* Swiggy_Sticky_Header_demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		423F20342ADFA4B100AA6940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423F20412ADFA4B300AA6940 /* Preview Assets.xcassets in Resources */,
+				423F203E2ADFA4B300AA6940 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		423F20322ADFA4B100AA6940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				423F20552ADFE3D700AA6940 /* HearderTilteView.swift in Sources */,
+				423F205A2ADFF13B00AA6940 /* HomeViewModel.swift in Sources */,
+				423F20512ADFDBE400AA6940 /* Food.swift in Sources */,
+				423F203C2ADFA4B100AA6940 /* ContentView.swift in Sources */,
+				423F204E2ADFAF0900AA6940 /* HeaderView.swift in Sources */,
+				423F20482ADFA51E00AA6940 /* VerticalDivider.swift in Sources */,
+				423F204C2ADFA5C300AA6940 /* Extension+UIView.swift in Sources */,
+				423F203A2ADFA4B100AA6940 /* Swiggy_Sticky_Header_demoApp.swift in Sources */,
+				423F20572ADFE75E00AA6940 /* Tab.swift in Sources */,
+				423F20532ADFE21400AA6940 /* CardView.swift in Sources */,
+				423F204A2ADFA54B00AA6940 /* Extesnion+AppColor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		423F20422ADFA4B300AA6940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		423F20432ADFA4B300AA6940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		423F20452ADFA4B300AA6940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiggy_Sticky_Header_demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 87NW43K2L2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "comvigneshzx.Swiggy-Sticky-Header-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		423F20462ADFA4B300AA6940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Swiggy_Sticky_Header_demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 87NW43K2L2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "comvigneshzx.Swiggy-Sticky-Header-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		423F20312ADFA4B100AA6940 /* Build configuration list for PBXProject "Swiggy_Sticky_Header_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423F20422ADFA4B300AA6940 /* Debug */,
+				423F20432ADFA4B300AA6940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		423F20442ADFA4B300AA6940 /* Build configuration list for PBXNativeTarget "Swiggy_Sticky_Header_demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				423F20452ADFA4B300AA6940 /* Debug */,
+				423F20462ADFA4B300AA6940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 423F202E2ADFA4B100AA6940 /* Project object */;
+}
